@@ -1,0 +1,30 @@
+body {
+	font-family: monospace;
+	color: #fff;
+	background-color: #2e2e2e;
+}
+
+#main {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+img {
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-weight: normal;
+	text-align: center;
+}
+
+#copyright {
+	font-size: 1.1em;
+	color: #888;
+	text-align: center;
+	padding-top: 5%;
+}
