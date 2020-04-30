@@ -6,7 +6,7 @@ body {
     margin: 2em auto;
     width: 90%;
     max-width: 1024px;
-    font-family: "Lato", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #282c35;
     color: #eee;
 }
@@ -81,6 +81,10 @@ header a:visited {
 header a:hover {
     color: #bbb;
     border: none;
+}
+
+section {
+    font-size: 125%;
 }
 
 footer {
