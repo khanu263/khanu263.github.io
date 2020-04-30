@@ -11,6 +11,47 @@ body {
     color: #eee;
 }
 
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 1em;
+    background-color: transparent;
+    border: 1px solid #eee;
+}
+
+.card-body {
+    padding-bottom: 5px;
+}
+
+h1,
+h2 {
+    font-family: "Overpass Mono", monospace;
+    text-transform: lowercase;
+}
+
+a {
+    border-bottom: 1px solid #bdd5ea;
+    text-decoration: none;
+    color: #bdd5ea;
+}
+
+a:visited {
+    border-bottom: 1px solid #bdd5ea;
+    text-decoration: none;
+    color: #bdd5ea;
+}
+
+a:hover {
+    border-bottom: 1px solid #829db8;
+    text-decoration: none;
+    color: #829db8;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -26,10 +67,20 @@ header h1 {
 
 header a {
     margin-left: 50px;
+    color: #eee;
     border: none;
     font-size: 150%;
     font-family: "Overpass Mono", monospace;
     text-transform: lowercase;
+}
+
+header a:visited {
+    color: #eee;
+}
+
+header a:hover {
+    color: #bbb;
+    border: none;
 }
 
 footer {
@@ -38,22 +89,4 @@ footer {
     font-family: "Overpass Mono", monospace;
     text-align: center;
     text-transform: lowercase;
-}
-
-h1,
-h2 {
-    font-family: "Overpass Mono", monospace;
-    text-transform: lowercase;
-}
-
-a {
-    border-bottom: 1px solid #eee;
-    text-decoration: none;
-    color: #eee;
-}
-
-a:hover {
-    border-bottom: 1px solid #bbb;
-    text-decoration: none;
-    color: #bbb;
 }
