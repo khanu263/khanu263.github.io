@@ -27,6 +27,18 @@ a:hover {
     color: #829db8;
 }
 
+/*
+ *  Offset anchor trick adapted from Phillip Lovelace
+ *  https://pixelflips.com/blog/anchor-links-with-a-fixed-header
+ */
+
+.anchor {
+    display: block;
+    height: 96px;
+    margin-top: -96px;
+    visibility: hidden;
+}
+
 header {
     position: sticky;
     z-index: 10;
@@ -74,19 +86,19 @@ section {
     max-width: 1024px;
 }
 
-#about {
+#about-content {
     width: 90%;
     margin: 10vh auto 20vh auto;
 }
 
-#about #hello {
+#about-content #hello {
     font-family: "Overpass Mono", monospace;
     text-transform: lowercase;
     font-size: 5em;
     margin-bottom: 0.2em;
 }
 
-#about p {
+#about-content p {
     font-size: 2em;
     margin-bottom: 1.25em;
 }
