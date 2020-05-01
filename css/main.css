@@ -30,6 +30,10 @@ h2 {
     font-size: 2.5em;
 }
 
+h3 {
+    font-size: 1.5em;
+}
+
 a,
 a:visited {
     border-bottom: 1px solid #bdd5ea;
@@ -41,6 +45,28 @@ a:hover {
     border-bottom: 1px solid #829db8;
     text-decoration: none;
     color: #829db8;
+}
+
+/*
+   SKIP LINK
+   https://dequeuniversity.com/rules/axe/3.5/skip-link
+*/
+
+#skip a {
+    position: absolute;
+    left: -999px;
+    top: -999px;
+    display: block;
+}
+
+#skip a:focus {
+    z-index: 11;
+    left: 5px;
+    top: 5px;
+    padding: 5px;
+    border: 2px solid red;
+    background-color: #eee;
+    color: #282c35;
 }
 
 /*
