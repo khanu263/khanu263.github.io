@@ -210,9 +210,15 @@ label {
 */
 
 footer {
-    margin-top: 2.5em;
-    font-size: smaller;
+    padding: 2.5em 2em;
+    border-top: 1px solid #eee;
+    margin-top: 8em;
     font-family: "Overpass Mono", monospace;
+    font-size: smaller;
     text-align: center;
     text-transform: lowercase;
+}
+
+footer p {
+    margin-bottom: 0.5em;
 }
