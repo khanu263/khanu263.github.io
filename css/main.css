@@ -14,6 +14,12 @@ h2 {
     text-transform: lowercase;
 }
 
+h2 {
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-size: 2.5em;
+}
+
 a,
 a:visited {
     border-bottom: 1px solid #bdd5ea;
@@ -81,14 +87,14 @@ header {
 }
 
 section {
-    margin: 2em auto;
+    margin: 2em auto 4em auto;
     width: 90%;
     max-width: 1024px;
 }
 
 #about-content {
     width: 90%;
-    margin: 10vh auto 20vh auto;
+    margin: 12vh auto 20vh auto;
 }
 
 #about-content #hello {
@@ -119,10 +125,13 @@ section {
 }
 
 .card {
-    border: 1px solid #eee;
-    margin: 1em;
+    margin: 1.2em;
     width: 300px;
     background-color: transparent;
+}
+
+.card-title {
+    margin-top: 5px;
 }
 
 .card-body {
