@@ -14,6 +14,7 @@
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen" />
         <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
@@ -132,25 +133,32 @@
         <span class="anchor" id="contact"></span>
         <section id="contact-content">
             <h2>Contact</h2>
-            <form>
+            <form
+                action="https://send.pageclip.co/AGuQlfazMIiE5ygKJq5gFJOndBzq8g96/contact-form"
+                class="pageclip-form"
+                method="post"
+            >
                 <div class="form-group">
-                    <label for="name">Name</label>
-                    <input class="form-control" id="name" type="text" name="Name" />
+                    <label for="name">Name <span class="required">(required)</span></label>
+                    <input class="form-control" id="name" type="text" name="Name" required />
                 </div>
                 <div class="form-group">
-                    <label for="email">Email</label>
-                    <input class="form-control" id="email" type="email" name="Email" />
+                    <label for="email">Email <span class="required">(required)</span></label>
+                    <input class="form-control" id="email" type="email" name="Email" required />
                 </div>
                 <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" id="message" name="Message"></textarea>
+                    <label for="message">Message <span class="required">(required)</span></label>
+                    <textarea class="form-control" id="message" name="Message" required></textarea>
                 </div>
-                <input class="btn btn-primary" type="submit" value="Submit" />
+                <button type="submit" class="btn btn-primary pageclip-form__submit">
+                    <span>Submit</span>
+                </button>
             </form>
         </section>
         <footer>
             <p>Copyright &copy; 2020 by Umair Khan. All rights reserved.</p>
             <p>Built with <a href="https://getbootstrap.com/">Bootstrap</a></p>
+            <p>Form powered by <a href="https://pageclip.co/">Pageclip</a></p>
             <p>
                 Fonts: <a href="https://fonts.google.com/specimen/Overpass+Mono">Overpass Mono</a> and
                 <a href="https://fonts.google.com/specimen/Roboto">Roboto</a>, provided through the
@@ -174,5 +182,8 @@
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"
         ></script>
+
+        <!-- Pageclip -->
+        <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     </body>
 </html>
