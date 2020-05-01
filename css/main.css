@@ -83,8 +83,30 @@ header a:hover {
     border: none;
 }
 
-section {
-    font-size: 125%;
+#about {
+    width: 90%;
+    margin: 10vh auto 20vh auto;
+}
+
+#about #hello {
+    font-family: "Overpass Mono", monospace;
+    text-transform: lowercase;
+    font-size: 5em;
+    margin-bottom: 0.2em;
+}
+
+#about p {
+    font-size: 2em;
+    margin-bottom: 1.25em;
+}
+
+.btn-outline-light:visited {
+    color: inherit;
+    border: inherit;
+}
+
+.btn-outline-light:hover {
+    color: #282c35;
 }
 
 footer {
