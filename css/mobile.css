@@ -1,0 +1,62 @@
+/*
+   MOBILE STYLES
+*/
+
+@media (max-width: 768px) {
+    section {
+        margin: 2em auto;
+    }
+
+    #header-content {
+        display: block;
+    }
+
+    #header-content h1 {
+        margin: 0 0 0.2em 0;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    #header-content nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #header-content a {
+        margin: 0;
+        width: 150px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    #about-content {
+        margin: 2em auto;
+        width: 80%;
+    }
+
+    #about-content #hello {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    #about-content p {
+        font-size: 1.25em;
+    }
+
+    .btn-outline-light {
+        display: block;
+        margin: 15px auto;
+    }
+
+    #projects-content {
+        margin-bottom: 1em;
+    }
+
+    #contact-content {
+        margin: 0 auto;
+    }
+
+    footer {
+        margin-top: 4em;
+    }
+}
