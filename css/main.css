@@ -170,6 +170,7 @@ header {
     margin: 1.2em;
     width: 300px;
     background-color: transparent;
+    border: none;
 }
 
 .card-title {
